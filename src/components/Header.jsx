@@ -33,8 +33,8 @@ const Header = () => {
   return (
     <>
       <nav className="py-4 flex justify-between items-center">
-        <Link>
-          <div className="h-20">Employz</div>
+        <Link to="/">
+          <div className="font-bold">Employz</div>
         </Link>
 
         <div className="flex gap-8">
